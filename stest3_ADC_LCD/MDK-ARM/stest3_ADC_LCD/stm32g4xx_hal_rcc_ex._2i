@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include
+-I.\RTE\_stest3_ADC_LCD
+-ID:\appmine\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+-ID:\appmine\Keil\ARM\PACK\Keil\STM32G4xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include
+-D__UVISION_VERSION="526" -D_RTE_ -DSTM32G431xx -DUSE_HAL_DRIVER -DSTM32G431xx
+-o stest3_adc_lcd\stm32g4xx_hal_rcc_ex.o --omf_browse stest3_adc_lcd\stm32g4xx_hal_rcc_ex.crf --depend stest3_adc_lcd\stm32g4xx_hal_rcc_ex.d --feedback "stest3_ADC_LCD\stest3_ADC_LCD.fed" "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c"
